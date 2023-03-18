@@ -1,0 +1,53 @@
+.home .hero  {
+  width: 100vw;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.home .hero img {
+  width: 100vw;
+  overflow: hidden;
+
+ 
+}
+.home .hero .col {
+  position: relative;
+  
+}
+.home .hero .col .content{
+  position: absolute; 
+  top: 25%;
+  left: 0%;
+  right: 0%;
+  text-align: center;
+}
+.home .hero .col .content .title,
+.home .hero .col .content .subtitle {
+  color: #000000;
+  font-size: 70px;
+  text-transform: uppercase;
+  text-shadow: #353535 3px 1px 3px;
+  margin-bottom: 10px;
+}
+.home .hero .col .content .subtitle {
+  font-size: 20px;
+  
+}
+
+@media screen and (max-width: 481px) {
+  .home .hero .col .content .title{
+    font-size: 20px;
+  }
+  .home .hero .col .content .subtitle{
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1200px){
+  .home .hero .col .content .title{
+    font-size: 45px;
+  }
+  .home .hero .col .content .subtitle{
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,94 @@
+.footer {
+  width: 100vw;
+  background-color: #33545f;
+  padding: 10px 25px;
+  margin-top: 50px;
+
+} 
+.footer .container .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .container .row:first-child {
+  margin-bottom: 20px;
+}
+
+.footer .container .row .col{
+  flex: 1;
+  color: #ffffff;
+  text-align: center;
+
+}
+.footer .container .row .col:first-child img {
+  width: 300px;
+  height: auto;
+  box-shadow: 1px 5px 15px white;
+}
+
+.footer .container .row .col:first-child .content {
+ 
+ padding: 30px 0;
+}
+
+.footer .container .row .col:first-child .content p {
+  letter-spacing: 1.2px;
+}
+
+.footer .container .row .col h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.footer .container .row .col ul li {
+  margin-bottom: 10px;
+}
+
+.footer .container .row .col ul li a {
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+ 
+}
+
+.footer .container .row .col ul li a:hover {
+  text-decoration: underline;
+
+}
+
+.footer .container .row .col .right svg {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+
+.footer .container .row .col .right svg:hover {
+  transform: scale(1.5);
+} 
+
+.footer .copyRights {
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 760px) {
+  .footer .container .row {
+    flex-direction: column;
+  }
+  .footer .container .row .col:first-child img{
+    width: 220px;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1200px){
+  .footer .container .row .col:first-child img{
+    width: 250px;
+    height: auto;
+  }
+  .footer .container .row .col h3 {
+    font-size: 18px;
+  }
+}
